@@ -23,3 +23,11 @@ This code will be moved to build server. This code will be built, tested and eva
 Artifact or Software is an archive of files generated from the build process based on the porgramming language. This artifact will be packaged in a specific format.
 
 Artifact packaging format could be war or jar in java. DLL/EXE/MSI in Windows. From repo to server for further testing. On testing team apporval, it can be moved to production servers. 
+
+The goal of CI is to detect errors and bugs at a very early stage so it's not compunded. That's why we automate it in such a way, when the DEVs commit a code, it is fetched for testing and evaluation and any errors is notified to the DEVs for immediate fix. In this way, we can reduce wait time as well as compunded errors.
+
+* __IDE:__ ECLIPSE, VSCODE, ATOM, PYCHARM
+* __VCS:__ GIT, SVN,TFS, PERFORCE
+* __Build tools:__ MAVEN, ANT, GRADLE, MSBUILD, VISUAL BUILD, IBM URBAN CODE, MAKE, GRUNT  
+* __Software Repo:__ SONATYPE NEXUS, JFROG ARTIFACTORY, ARCHIVA, CLOUDSMITH PACKAGE, GRUNT
+* __CI Tools:__ JENKINS, CIRCLECI, TEAMCITY, BAMBOO CI, CRUISE CONTROL
