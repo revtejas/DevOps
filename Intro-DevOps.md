@@ -56,3 +56,6 @@ Software testing has to be automated which includes functional, load, performanc
 * __DB/Sec Changes:__ Every other ops changes
 * __Software Testing:__ QA/ Functional, load, performance test
 * __Deploy to Prod:__ :)
+
+
+More to be continued...
